@@ -1,25 +1,24 @@
+//MEDIA QUERY BREAKPOINTS 
+$break-m: 768px;
+
+//COLOR VARIABLES 
+$teal:      #58e1c1;
+$grey:      #777;
+$skyblue:   #51ddfc;
+$purple:    #927bc1;
+$coral:     #e4757a;
+$white:     #fff;
+$green:     #63cc82;
+$orange:    #fd7856;
+
+
+
 //PARTIAL IMPORTS
 @import 'base/index';
 @import 'components/index';
 @import 'utilities/index';
 
 
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
 
-* {
-    font-family: 'Lato', sans-serif;
-    color: #777;
-    box-sizing: border-box;
-  }
-  
-  p {
-    line-height: 1.45em;
-  }
-  
-  a {
-    text-decoration: none;
-  }
   
   
